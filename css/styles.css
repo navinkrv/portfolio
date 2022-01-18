@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.top{
+    background-color: rgb(204, 245, 245);
+    position: relative;
+    padding-top: 150px ;
+}
+h1{
+    margin-top: 0 auto 0 auto;
+    font-family: 'The Nautigal', cursive;
+    font-size: 8vw;
+    color: #66BFBF;
+}
+h2{
+    font-family: sans-serif;
+   
+    color:#66BFBF;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+p{
+    color: #40514e;
+}
+hr{
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 5px;
+    color: #eaf6f6;
+    
+}
+.btn{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+button{
+    background-color: #11999E;
+    border: 1px solid #11999E;
+   
+    margin: 30px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color:#6dbdc0 ;
+    border: 1px solid #6dbdc0;
+}
+
+.row{
+    padding: 2%;
+}
+.container{
+    margin-top: 40px;
+}
+.selfimg{
+    border-radius: 100%;
+    margin-top: 30px;
+}
+.skillLeft{
+    border-radius: 100%;
+    width: 12vh;
+   padding: 5%;
+  
+}
+
+.leftCloud{
+    position: absolute;
+    left: 160px;
+    bottom: 295px;
+    
+
+}
+.rightCloud{
+    position: absolute;
+    right: 163px;
+    bottom: 621px;
+    
+}
+.mountain{
+    width: 50%;
+}
+
+
+/********************* FOOTER *****************/
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #11999e;
+    padding: 10px;
+}
+.footer-link:hover{
+    color: #eaf6f6;
+}
+.copyright{margin: 15px;
+    color: #eaf6f6;
+}
+ 
+/* media queries */
+
+@media screen and (max-width:990px) {
+    .rightCloud{
+        right: 75px;
+    bottom: 480px;
+    }
+    .leftCloud{
+        left: 41px;
+        bottom: 189px;
+    }
+   
+
+}
+
+@media screen and (max-width:700px) {
+    .rightCloud{
+        right: 2px;
+        bottom: 321px;
+    }
+    .leftCloud{
+        left: 37px;
+        bottom: 126px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .rightCloud{
+        right: 7px;
+        bottom: 282px;
+        width: 20%;
+    }
+    .leftCloud{
+        left: 3px;
+        bottom: 120px;
+        width: 20%;
+    }
+}
