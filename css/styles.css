@@ -144,4 +144,7 @@ button:hover{
         bottom: 120px;
         width: 20%;
     }
+    h1{
+     font-size:17vw;   
+    }
 }
