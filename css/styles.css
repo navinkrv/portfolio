@@ -131,6 +131,9 @@ button:hover{
         left: 37px;
         bottom: 126px;
     }
+    h1{
+     font-size:17vw;   
+    }
 }
 
 @media screen and (max-width:500px) {
