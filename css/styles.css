@@ -13,13 +13,10 @@ h1{
     font-size: 8vw;
     color: #66BFBF;
 }
-h2{
+h2, h3 , h4{
     font-family: sans-serif;
    
     color:#66BFBF;
-}
-h3{
-    color: #11999E;
 }
 a{
     color: #11999E;
@@ -118,7 +115,9 @@ button:hover{
         left: 41px;
         bottom: 189px;
     }
-   
+    h1{
+     font-size:17vw;   
+    }
 
 }
 
